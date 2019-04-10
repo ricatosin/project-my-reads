@@ -1,26 +1,26 @@
 {
-  "name": "myreads-app",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "array-sort-by": "^1.1.2",
+    "js-throttle-debounce": "^0.1.1",
+    "prop-types": "^15.5.8",
+    "react": "^15.6.2",
+    "react-debounce-input": "^3.1.0",
+    "react-debounce-render": "^3.0.0",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.2.2",
+    "react-throttle-render": "^2.0.0",
+    "rx-op-debounce-throttle": "^1.0.2",
+    "sortby": "0.0.2",
+    "throttle-debounce": "^1.0.1"
+  },
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.1.1",
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
