@@ -1,16 +1,55 @@
-# MyReads Project
+[![REACT nanodegree](https://img.shields.io/badge/udacity-REACTND-02b3e4.svg?style=flat)](https://www.udacity.com/course/react-nanodegree--nd019)
 
- Udacity React Nanodegree Program.
+This project is my implementation of MyReads app which is the final assessment project for the
+Udacity's React Fundamentals course, part of the [React Nanodegree Program](https://udacity.com/course/nd019).
 
- # Getting Started
- Installation
+MyReads is a bookshelf app that allows the user to select and categorize books they have read, are currently reading, or want to read.
 
- npm install
- Or
- yarn install
+## Getting Started
 
-Run!
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
- npm start
- Or
- yarn start
+### Prerequisites
+
+The project can be built with npm or yarn, so choose one of the approach bellow in case you don't have any installed on your system.
+
+* **Npm** is distributed with Node.js which means that when you download Node.js, you automatically get npm installed on your computer. [Download Node.js](https://nodejs.org/en/download/)
+
+* **Yarn** is a package manager built by Facebook Team and seems to be faster than npm in general.  [Download Yarn](https://yarnpkg.com/en/docs/install)
+
+### Installing
+
+To download the project follow the instructions bellow:
+
+```
+git clone https://github.com/ricatosin/project-my-reads
+
+cd myreads
+```
+
+Then install dependencies and run:
+
+```
+yarn install
+yarn start
+```
+
+or
+
+```
+npm install
+npm run start
+```
+
+## Versions
+
+v1.0
+* Default project implementation
+
+## Authors
+
+Ricardo Tosin 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
