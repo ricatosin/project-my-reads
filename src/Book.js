@@ -11,10 +11,11 @@ class Book extends Component {
   render() {
     const {book, moveBookToShelf} = this.props
     var authors = (book.authors === undefined) ? [] : book.authors;
+    
     const coverStyle = {
       width: 128,
       height: 193,
-      backgroundImage: `url('${book.imageLinks.smallThumbnail}')`
+      backgroundImage: book.imageLinks ? `url('${book.imageLinks.smallThumbnail}')` : `url('')`
     }
     return (
       <li key={book.id}>

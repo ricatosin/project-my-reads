@@ -52,10 +52,6 @@ class SearchBooks extends Component {
     this.searchForBooks(query);
   }
 
-  componentDidMount() {
-    this.searchForBooks(this.state.query);
-  }
-
   render() {
     const { query, books } = this.state
     const { moveBookToShelf } = this.props
