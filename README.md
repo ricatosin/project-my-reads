@@ -1,4 +1,4 @@
-[![REACT nanodegree](https://img.shields.io/badge/udacity-REACTND-02b3e4.svg?style=flat)](https://www.udacity.com/course/react-nanodegree--nd019)
+[![REACT nanodegree](https://img.shields.io/badge/udacity-REACTND-02b3e4.svg?style=flat)](https://www.udacity.com/course/react-nanodegree--nd)
 
 This project is my implementation of MyReads app which is the final assessment project for the
 Udacity's React Fundamentals course, part of the [React Nanodegree Program](https://udacity.com/course/nd019).
